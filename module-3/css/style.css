@@ -1,0 +1,103 @@
+/* универсальный селектор */
+html {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.wrapper {
+    width: 902px;
+    margin: auto;
+    padding-top: 75px;
+    background-color: #F5F5F5;
+}
+
+.list {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.list-item {
+    display: inline-block;
+}
+
+.list-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 45px;
+    color: #808080;
+}
+
+.list-link:hover,
+.list-link:focus {
+    font-size: 25px;
+    color:blue;
+}
+
+main {
+    font-size: 0;
+}
+
+.card {
+    font-size: 16px;
+    display: inline-block;
+}
+
+.card-subtitle {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+    color: #D3D3D3;
+}
+
+.card-title {
+    font-size: 23px;
+    margin-bottom: 35px;
+    font-family: 'Playfair Display', serif;
+    width: 421px;
+    color: #808080;
+}
+
+.card-description {
+    margin-bottom: 132px;
+    width: 421px;
+    font-family: 'Playfair Display', serif;
+    color: #808080;
+}
+
+.description-bottom {
+    width: 421px;
+    font-family: 'Playfair Display', serif;
+    color: #808080;
+    margin-bottom: 55px;
+}
+
+.card2 {
+    margin-right: 60px;
+}
+
+.load-m {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    width: 164px;
+    height: 60px;
+    color:#808080;
+    font-family: 'Playfair Display', serif;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 368px;
+    margin-bottom: 70px;
+}
+
