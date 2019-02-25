@@ -41,12 +41,16 @@ html {
 
 .list-link:hover,
 .list-link:focus {
-    font-size: 25px;
     color:blue;
 }
 
 main {
     font-size: 0;
+}
+
+img {
+    width: 421px;
+    height: 280px;
 }
 
 .card {
