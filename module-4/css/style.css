@@ -60,7 +60,7 @@ html {
   color: #1f1212;
 }
 
-.home {
+.list-link:hover {
   color: rgb(26, 188, 156);
 }
 
