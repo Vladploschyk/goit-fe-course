@@ -107,29 +107,32 @@ body {
     background-image: url('../img/mobile/vector_mobile.png');
     background-repeat: no-repeat;
     width: auto;
-    background-position: center;
+    background-position: center 0;
     background-size: cover;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 138px;
 }
 
 .log__buttons {
-    margin-bottom: 115px;
+    margin-bottom: 40px;
 }
 
 .btn__in {
     display: inline-block;
-    text-align: center;
+    text-decoration: none;
     width: 90px;
     height: 36px;
-    color: #ffff;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: 700;
     border-radius: 50px;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
     line-height: 36px;
-
+    transition: border 0.4s;
 }
 
 .btn__in:hover {
